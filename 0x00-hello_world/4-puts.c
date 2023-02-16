@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* Printxt - Prints "\"Programming is like building a multilingual puzzle"
+* Main - Print "\"Programming is like building a multilingual puzzle"
 *
 * Return: Value 0 means successful execution of main() function.
 */
