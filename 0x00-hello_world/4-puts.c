@@ -1,12 +1,12 @@
 #include <stdio.h>
-int main()
+int main(void)
 {
 	/**
-	 * puts function display the string in double quotes
+	 * puts function display the content in double quotes
 	 */
 	char Printxt[] = "\"Programming is like building a multilingual puzzle";
 
 	puts(Printxt); /* writing the string to stdout */
 
-	return 0;
+	return (0);
 }
