@@ -8,7 +8,7 @@ int main(void)
 {
 	char ch = 'a';
 
-	for (int b = 0; b < 26; b++)
+	for (int i = 0; i < 26; i++)
 	{
 		putchar(ch);
 		ch++;
