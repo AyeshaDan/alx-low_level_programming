@@ -2,13 +2,13 @@
 /**
 * main - Print the alphabet in lowercase, followed by a new line.
 *
-* Return: Value 0 means successful execution of main() function.
+* Return: Value 0 means succesful execution of main() function.
 */
 int main(void)
 {
 	char letter = 'a';
-	while (letter <= 'z')
 
+	while (letter <= 'z')
 	{
 		putchar(letter);
 		letter++;
