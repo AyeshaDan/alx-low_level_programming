@@ -77,6 +77,23 @@ int main(void)
 ```
 Exit and compile the code with `gcc filename.c`, followed  by `./a.out`.
 
+## Resources
+1. C Programming
+	[https://blog.ehoneahobed.com/tag/c-programming](url)
+	[https://man7.org/linux/man-pages/man1/gcc.1.html](url)
+	
+2. `Puts` Function
+	[https://www.digitalocean.com/community/tutorials/puts-function-c-plus-plus](url)
+
+3. `Printf` Function
+	[https://www.w3schools.com/c/c_syntax.php](url)
+	
+4. Data Types
+
+   [https://linuxhint.com/find-size-int-float-basic-variables-c/](url)
+   [https://www.geeksforgeeks.org/data-types-in-c/](url)
+   [https://www.scaler.com/topics/c/format-specifiers-in-c/](url)
+   [https://www.simplilearn.com/tutorials/c-tutorial/format-specifiers-in-c](url)
 
 
 
