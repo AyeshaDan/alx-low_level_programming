@@ -1,15 +1,18 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-/* main - Print n as positive or negative */
+/**
+* main - Print n as either negative or positive
+*
+* Return: Value 0 means successful execution of main() function.
+*/
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
+	
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
@@ -22,6 +25,6 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-
+	  
 	return (0);
 }
