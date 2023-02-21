@@ -6,7 +6,7 @@
 * Return: Value 0 means succesful execution.
 */
 
-int main(void)
+int main()
 {
 	char c;
 
