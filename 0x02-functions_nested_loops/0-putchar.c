@@ -9,6 +9,7 @@ int putchar(int c);
 int main(void)
 {
 	int letter;
+
 	letter = '_';
 	putchar(letter);
 	letter = 'p';
@@ -26,6 +27,6 @@ int main(void)
 	letter = 'r';
 	putchar(letter);
 	putchar('\n');
-	
-	return(0);
+
+	return (0);
 }
