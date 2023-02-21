@@ -6,7 +6,7 @@
 * Return: Value 0 means succesful execution.
 */
 
-int main()
+int main(void)
 {
 	char c;
 
@@ -15,4 +15,6 @@ int main()
 		putchar(c);
 	}
 	putchar('\n');
+
+	return (0);
 }
