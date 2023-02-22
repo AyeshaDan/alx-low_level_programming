@@ -4,12 +4,6 @@
 *
 * Return: Value 0 means succesful execution.
 */
-int main(void)
-{
-    print_alphabet();
-    return (0);
-}
-
 void print_alphabet(void)
 {
 	char print_alphabet;
