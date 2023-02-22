@@ -1,4 +1,3 @@
-
 #include "main.h"
 /**
 * print_sign - the function to check for sign of a number
@@ -12,12 +11,12 @@ int print_sign(int n)
 		_putchar('+');
 		return (1);
 	}
-	if (n == 0)
+	else if (n == 0)
 	{
 		_putchar('0');
 		return (0);
 	}
-	if (n < 0)
+	else
 	{
 		_putchar('-');
 		return (-1);
