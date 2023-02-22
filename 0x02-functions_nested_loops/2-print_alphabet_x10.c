@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
 * main - Print the alphabet in lowercase 10 times, followed by a new line.
