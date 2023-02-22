@@ -5,7 +5,7 @@
 * 
 * Return: Value 0 returns success
 */
-int _abs(int)
+int _abs(int j)
 {
 	int abs;
 
