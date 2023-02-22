@@ -5,11 +5,11 @@
 * 
 * Return: Value 0 returns success
 */
-int _abs(int x)
+int _abs(int)
 {
-	int num;
+	int abs;
 
-	int r = _abs(num);
+	int r = _abs(abs);
 
 	printf("%d\n", r);
 
