@@ -4,7 +4,7 @@
 *
 * Return: Value 0 means succesful execution.
 */
-void print_most_numbers(void)
+int main(void)
 {
 	int print_most_numbers = '0';
 
