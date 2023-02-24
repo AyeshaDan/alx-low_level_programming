@@ -6,11 +6,11 @@
 */
 void print_most_numbers(void)
 {
-	int print_most_numbers = 0;
+	int print_most_numbers = '0';
 
-	while (print_most_numbers <= 9)
+	while (print_most_numbers <= '9')
 	{
-		if (print_most_numbers == 2 || print_most_numbers == 4)
+		if (print_most_numbers == '2' || print_most_numbers == '4')
 		{
 		print_most_numbers++;
 		continue;
