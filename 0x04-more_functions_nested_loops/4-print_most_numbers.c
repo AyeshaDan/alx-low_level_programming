@@ -1,9 +1,8 @@
-#include <stdio.h>
 #include "main.h"
 /**
-* main - Print numbers 0 to 9, excluding 2 and 4, with a new line.
+* print_most_numbers - Print numbers 0 to 9, excluding 2 and 4, with a new line.
 *
-* Return: Value 0 means succesful execution of main() function.
+* Return: Numbers listed without 2 and 4
 */
 void print_most_numbers(void)
 {
@@ -21,6 +20,4 @@ void print_most_numbers(void)
 	}
 
 	_putchar('\n');
-
-	return (0);
 }
