@@ -1,5 +1,3 @@
-
-#include <stdio.h>
 #include "main.h"
 /**
 * more_numbers - Prints 0 to 14, 10 times with new line.
@@ -11,7 +9,7 @@ void more_numbers(void)
 	int i = '0';
 	int c;
 
-	while (i < '10')
+	while (i < 10)
 	{
 		c = '0';
 
