@@ -6,20 +6,20 @@
 */
 void more_numbers(void)
 {
-	int a = 0;
-	int b;
+	int i = 0;
+	int j;
 
-	while (a < 10)
+	while (i < 10)
 	{
-		b = 0;
+		j = 0;
 
-		for (b = 0; b <= 14; b++)
+		for (j = 0; j <= 14; j++)
 		{
-			_putchar(b);
+			_putchar(j);
 		}
 
 	_putchar('\n');
-	a++;
+	i++;
 }
 
 }
