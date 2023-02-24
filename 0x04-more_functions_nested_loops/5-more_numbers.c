@@ -1,22 +1,25 @@
 #include "main.h"
 /**
 * more_numbers - Prints 0 to 14, 10 times with new line
-* @n: The value within the loop
+* 
 * Return: Successful execution of void more_numbers(void) function
 */
 void more_numbers(void)
 {
 	int i = 0;
+	int c;
 
 	while (i < 10)
 	{
-		for (i = '0'; i <= '14'; i++)
+		c = '0';
+
+		for (c = '0'; c <= '14'; c++)
 		{
-			_putchar(i);
+			_putchar(c);
 		}
 
 	_putchar('\n');
 	i++;
-	}
+}
 
 }
