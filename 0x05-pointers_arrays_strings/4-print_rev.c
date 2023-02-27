@@ -7,7 +7,7 @@
 void print_rev(char *s)
 {
 	int i, len, temp;
-	len = strlen(s);
+	len = _strlen(s);
 
 	for (i = 0; i < len/2; i++)
 	{
@@ -15,6 +15,11 @@ void print_rev(char *s)
 		s[i] = s[len - i - 1];
 		s[len - i - 1] = temp;
 	}
+
+	char str[50];
+	get(str);
+
+	print_rev(str)
 
 	_putchar('\n');
 }
