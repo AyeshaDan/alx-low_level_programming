@@ -15,7 +15,7 @@ char *cap_string(char *ptr)
 			ptr[i] = ptr[i] - 32;
 			continue;
 		}
-		if (ptr[i] == ' ', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}')
+		if (ptr[i] == ' ' || ptr[i] == ',' || ptr[i] == ';' || ptr[i] == '.' || ptr[i] == '!' || ptr[i] == '?' || ptr[i] == '"' || ptr[i] == '(' || ptr[i] == ')' || ptr[i] == '{' || ptr[i] == '}')
 		{
 			++i;
 
