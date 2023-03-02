@@ -1,9 +1,5 @@
-cat > 5-string_toupper.c
-
-#include "main.h"
 /**
 * string_toupper - change all lowercase letters of a string to uppercase
-*
 * Return: Uppercase string
 */
 char *string_toupper(char *ptr)
@@ -15,6 +11,6 @@ char *string_toupper(char *ptr)
 		if (ptr[i] >= 'a' && ptr[i] <= 'z')
 			ptr[i] = (int)ptr[i] - 32;
 	}
-
 	return (ptr);
 }
+
