@@ -31,6 +31,5 @@ char *cap_string(char *ptr)
 				ptr[i] = ptr[i] + 32;
 		}
 	}
-
 	return (ptr);
 }
