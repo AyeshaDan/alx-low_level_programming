@@ -27,7 +27,7 @@ char *cap_string(char *ptr)
 		}
 		else
 		{
-			if (ptr[i] >='A' && ptr[i] <= 'Z')
+			if (ptr[i] >= 'A' && ptr[i] <= 'Z')
 				ptr[i] = ptr[i] + 32;
 		}
 
